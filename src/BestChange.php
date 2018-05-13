@@ -17,7 +17,7 @@ class BestChange
     const FILE_EXCHANGERS = 'bm_exch.dat';
     const FILE_RATES = 'bm_rates.dat';
 
-    const TIMEOUT = 5;
+    const TIMEOUT = 20;
 
     /** @var \ZipArchive */
     private $zip;
